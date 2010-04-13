@@ -1,5 +1,6 @@
 #!/usr/bin/ruby -w
 
+require 'fileutils';
 require 'pp';
 require 'set';
 require 'tmpdir'
