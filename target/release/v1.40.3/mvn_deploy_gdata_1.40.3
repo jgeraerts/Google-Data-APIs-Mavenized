@@ -3,8 +3,8 @@
 MVN='mvn -e gpg:sign-and-deploy-file'
 JARS='/tmp/gdata-mvn/gdata-src.java-1.40.3/gdata/java/lib/'
 POMS='./'
-REPO='sonatype-nexus-staging'
-URL='http://oss.sonatype.org/service/local/staging/deploy/maven2'
+REPO='nascom-thirdparty'
+URL='http://maven.development.nascom.be/content/repositories/thirdparty/'
 
 ${MVN} -Dfile=${JARS}gdata-analytics-2.1.jar -DpomFile=${POMS}gdata-analytics-2.1-pom.xml -DrepositoryId=${REPO} -Durl=${URL}
 ${MVN} -Dfile=${JARS}gdata-appsforyourdomain-1.0.jar -DpomFile=${POMS}gdata-appsforyourdomain-1.0-pom.xml -DrepositoryId=${REPO} -Durl=${URL}

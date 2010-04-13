@@ -10,9 +10,9 @@ $Mvn_deploy_snapshot = 'mvn -e deploy:deploy-file'
 $Mvn_deploy_release  = 'mvn -e gpg:sign-and-deploy-file'
 
 # maven coordinates
-$Group = 'com.github.dcarter.gdata-java-client'
-$Release_repo = 'sonatype-nexus-staging' 
-$Release_repo_url = 'http://oss.sonatype.org/service/local/staging/deploy/maven2'
+$Group = 'com.google.code.gdata-java-client'
+$Release_repo = 'nascom-thirdparty' 
+$Release_repo_url = 'http://maven.development.nascom.be/content/repositories/thirdparty/'
 $Snapshot_repo = 'sonatype-nexus-snapshots' 
 $Snapshot_repo_url = 'http://oss.sonatype.org/content/repositories/snapshots'
 
